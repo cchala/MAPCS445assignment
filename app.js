@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var module_js_1 = require("./module.js");
+var obj = new module_js_1.Univeristy("MIU", "Computer Science");
+obj.graduation(2017);
+var me = new module_js_1.Myself("Chimdi", 2000, ["Violin", "Cooking"]);
+me.deposit(3000);
+console.log(me);
+var car = new module_js_1.Car("BMW");
+car.honk();
+console.log(car.acceleration);
+car.accelerate(60);
+console.log(car.acceleration);
